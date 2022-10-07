@@ -10,6 +10,10 @@ body {
     margin: 40px;
     font-size: 1.5em;
   }
+  a:hover {
+    background-color: white;
+    color: steelblue;
+  }
   h1 {
     color: steelblue;
   }
@@ -20,9 +24,14 @@ body {
   p {
     padding: 10px;
   }
-  footer {
+  nav, footer {
     background-color: steelblue;
     color: white;
+    padding: 10px;
+  }
+  footer p {
+    font-size: 20px;
+    margin: 20px auto;
   }
   .main-para {
     font-size: 1.5em;
