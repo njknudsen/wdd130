@@ -45,7 +45,8 @@ header {
 }
 
 .book:hover {
-    color: #4f4f4f;
+    background-color: #fce172;
+    color: black;
 }
 
 .join:hover {
