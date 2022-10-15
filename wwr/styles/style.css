@@ -85,6 +85,7 @@ nav a {
 }
 
 nav a:hover {
+    background-color: #b3cfdf;
     color: #062033;
 }
 
@@ -110,7 +111,7 @@ h4 {
 }
 
 .msg h2 {
-    font-family: "Patrick Hand SC", "gaegu";
+    font-family: "Mulish", "Helvetica", "sans-serif";
     color: #ffffff;
 }
 
