@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@700&family=Mulish:wght@300&family=Patrick+Hand+SC&family=Roboto&family=Rock+Salt&display=swap');
+
 div {
     max-width: 1600px;
 }
@@ -22,26 +24,48 @@ main section {
     text-align: center; 
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 #background {
     height: 725px;
 } 
 
 body {
+    font-family: "Mulish", "Helvetica", "sans-serif";
+    font-size: 22px;
     background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
 }
 
 header {
+    font-family: "Mulish", "Helvetica", "sans-serif";
     background-color: #396E94;
 }
 
 .book {
     text-decoration: none;
+    font-size: 18px;
     color: black;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .join {
+    font-family: "Mulish", "Helvetica", "sans-serif";
+    font-size: 18px;
     text-decoration: none;
     color: #ffffff;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover {
@@ -56,7 +80,8 @@ header {
 
 nav a {
     text-decoration: none;
-    color: #ffffff
+    color: #ffffff;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -68,11 +93,16 @@ nav a:hover {
 }
 
 .msg {
+    line-height: 1.5em;
     background-color: #134266;
+    padding: 35px;
 }
 
 .home-title {
+    font-family: "Patrick Hand SC", "gaegu";
+    font-size: 2em;
     color: black;
+    margin-top: 10px;
 }
 
 h4 {
@@ -80,15 +110,22 @@ h4 {
 }
 
 .msg h2 {
+    font-family: "Patrick Hand SC", "gaegu";
     color: #ffffff;
 }
 
 .msg p {
+    font-family: "Mulish", "Helvetica", "sans-serif";
+    font-size: .8em;
     color: #ffffff;
+    padding-bottom: 15px;
 }
 
 footer {
+    font-family: "Mulish", "Helvetica", "sans-serif";
     background-color: #134266;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
@@ -109,14 +146,39 @@ footer p a:hover {
     text-decoration: underline;
 }
 
+footer .social img {
+    padding-top: 15px;
+}
+
 .logo {
     width: 80px;
 }
 
+#logo_link {
+    padding-top: 5px;
+}
+
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
     width: 100%;
+}
+
+.rivers-card {
+    margin: 200px 0;
+}
+
+.camping-card {
+    margin: 200px 0;
+}
+
+.rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #d9c2a3;
 }
