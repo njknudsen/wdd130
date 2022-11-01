@@ -227,6 +227,7 @@ footer .social img {
 }
 
 .card-img {
+    width: 100%;
     border: 10px solid #fce172;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
@@ -238,7 +239,7 @@ footer .social img {
 
 .home-grid {
     display: grid;
-    grid-template-columns: 10fr;
+    grid-template-columns: repeat(10, 145px);
 }
              
 
