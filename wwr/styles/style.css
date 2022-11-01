@@ -104,9 +104,9 @@ nav a:hover {
     line-height: 1.5em;
     background-color: #134266;
     padding: 35px;
+    box-shadow: 5px 5px 10px #6f7364;
     grid-column: 6/10;
     grid-row: 6/7;
-    box-shadow: 5px 5px 10px #6f7364;
 }
 
 .home-title {
@@ -221,13 +221,12 @@ footer .social img {
 
 .mountains {
     width: 100%;
+    box-shadow: 5px 5px 10px #6f7364;
     grid-column: 2/7;
     grid-row: 5/8;
-    box-shadow: 5px 5px 10px #6f7364;
 }
 
 .card-img {
-    
     border: 10px solid #fce172;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
@@ -236,11 +235,12 @@ footer .social img {
     opacity: .6;
     transform: scale(1.1);
 }
-             
+
 .home-grid {
     display: grid;
     grid-template-columns: 10fr;
 }
+             
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
