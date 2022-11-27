@@ -106,6 +106,7 @@ nav ul li {
 .hero img {
     height: 37.5rem;
     width: 37.5rem;
+    padding-bottom: 2em;
 }
   
 .bio {
@@ -324,4 +325,78 @@ footer {
     padding: 15px;
     border-radius: 6px;
     box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+}
+
+.individual-item {
+    padding: 0 2em 2em;
+    max-width: 1000px;
+}
+
+.testimonials {
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.testimonial-col {
+    flex-basis: 44%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    background: #ffefe8;
+    padding: 25px;
+    cursor: pointer;
+    display: flex;
+}
+
+.testimonial-col img {
+    height: 65px;
+    margin-left: 5px;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+
+.testimonial-col p{
+    padding: 5px;
+}
+
+.testimonial-col h3 {
+    margin-top: 15px;
+    text-align: left;
+    margin-bottom: 5%;
+}
+
+
+.us {
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.us-col {
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+
+.us-col img {
+    width: 100%;
+}
+
+.us-col h1 {
+    font-size: xx-large;
+    padding-top: 0;
+
+}
+
+.us-col p {
+    padding: 15px 0 25px;
+
+}
+
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
 }
