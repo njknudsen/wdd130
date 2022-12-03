@@ -373,6 +373,7 @@ footer {
     margin: auto;
     padding-top: 80px;
     padding-bottom: 50px;
+    
 }
 
 .us-col {
@@ -392,7 +393,7 @@ footer {
 
 .us-col p {
     padding: 15px 0 25px;
-
+    line-height: 1.7rem;
 }
 
 .row {
