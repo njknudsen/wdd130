@@ -14,7 +14,7 @@ burger.addEventListener("click", () => {
   ul.classList.toggle("show");
 });
 
-// Close hamburger menu when a link is clicked
+// Close hamburger menu when clicked
 navLink.forEach((link) =>
   link.addEventListener("click", () => {
     ul.classList.remove("show");

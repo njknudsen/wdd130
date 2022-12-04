@@ -415,8 +415,6 @@ footer {
     height: 3rem;
 }
 
-
-
 /* Media queries for responsiveness */
 @media screen and (max-width: 720px) {
 
@@ -456,12 +454,17 @@ nav ul.show {
   
 .hero img {
       height: 37.5rem;
-      width: 30rem;
+      width: 30rem; 
+      margin-bottom: 4rem;
 }
   
 .bio {
       margin-top: -7rem;
       width: 20.5rem;
+}
+
+.individual-item {
+    padding: 0 2em 2em;
 }
   
 .more-about {
