@@ -329,7 +329,6 @@ footer {
 
 .individual-item {
     padding: 0 2em 2em;
-    max-width: 1000px;
 }
 
 .testimonials {
@@ -439,12 +438,12 @@ nav ul li {
 }
   
 .burger-menu {
-      display: block;
-    }
-  
-nav ul.show {
-      transform: translateX(0);
-    }
+    display: block;
+}
+
+  nav ul.show {
+    transform: translateX(0);
+}
   
 .hero {
       margin-top: -4rem;
@@ -463,8 +462,10 @@ nav ul.show {
       width: 20.5rem;
 }
 
-.individual-item {
-    padding: 0 2em 2em;
+.individual-item img {
+    padding: 0 auto;
+    width: 100%;
+    height: auto;
 }
   
 .more-about {
@@ -487,6 +488,7 @@ nav ul.show {
   
 .projects-container {
       flex-direction: column;
+      font-size: x-small;
 }
   
 .project-container {
@@ -495,6 +497,13 @@ nav ul.show {
   
 .contact-form-container {
       max-width: 23.75rem;
+}
+
+.testimonial-col {
+    margin-left: 0px;
+    margin-right: 10px;
+    padding: 2%;
+    flex-direction: column;
 }
 
 }
